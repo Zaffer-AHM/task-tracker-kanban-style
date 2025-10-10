@@ -26,8 +26,5 @@ public class BoardColumn {
     private Board board;
 
     @OneToMany(mappedBy = "column", cascade = CascadeType.ALL, orphanRemoval = true)
-    private List<BoardColumn> columns;
-
-    @OneToMany(mappedBy = "column", cascade = CascadeType.ALL, orphanRemoval = true)
     private List<Task> tasks;
 }
