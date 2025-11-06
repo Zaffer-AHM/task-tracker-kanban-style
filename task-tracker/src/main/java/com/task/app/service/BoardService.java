@@ -5,6 +5,9 @@ import com.task.app.entity.User;
 import java.util.List;
 import java.util.Optional;
 
+import org.springframework.stereotype.Service;
+
+@Service
 public interface BoardService {
     List<Board> getBoardsByUser(User user);
     Optional<Board> getBoardById(Long id);
