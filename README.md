@@ -2,7 +2,7 @@
 Task tracker with security and pretty ui
 
 uses: 
-- Vue.js
+- React.js
 - java
 - Postgresql
 - will adding JWT authentication too i guess
