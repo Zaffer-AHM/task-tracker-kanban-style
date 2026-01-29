@@ -14,7 +14,7 @@ Building a Task tracker to improve backend knowledge and maybe find my own code 
 
 I haven't included the entire flow of the application yet - this only contains necessary information for me to get started in my backend.
 
-### Entity Relationship Diagram
+### Rough Entity Relationship Diagram
 
 ```
 User
